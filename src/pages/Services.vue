@@ -1,14 +1,7 @@
 <template>
-  <div>
-    <h1>Services Page</h1>
-  </div>
+  <InnerHeader title="Services" subtitle="Our Services" />
 </template>
 
-<script>
-export default {
-  name: 'ServicesPage'
-}
+<script setup>
+import InnerHeader from '../components/InnerHeader.vue';
 </script>
-
-<style scoped>
-</style>

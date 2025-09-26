@@ -1,14 +1,7 @@
 <template>
-  <div>
-    <h1>Contact Us Page</h1>
-  </div>
+  <InnerHeader title="Contact Us" subtitle="Get In Touch" />
 </template>
 
-<script>
-export default {
-  name: 'ContactUsPage'
-}
+<script setup>
+import InnerHeader from '../components/InnerHeader.vue';
 </script>
-
-<style scoped>
-</style>

@@ -1,14 +1,7 @@
 <template>
-  <div>
-    <h1>Help & FAQs Page</h1>
-  </div>
+  <InnerHeader title="Help & FAQs" subtitle="Frequently Asked Questions" />
 </template>
 
-<script>
-export default {
-  name: 'HelpAndFaqsPage'
-}
+<script setup>
+import InnerHeader from '../components/InnerHeader.vue';
 </script>
-
-<style scoped>
-</style>

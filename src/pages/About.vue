@@ -1,14 +1,7 @@
 <template>
-  <div>
-    <h1>About Page</h1>
-  </div>
+  <InnerHeader title="About Us" subtitle="About Our Hospital" />
 </template>
 
-<script>
-export default {
-  name: 'AboutPage'
-}
+<script setup>
+import InnerHeader from '../components/InnerHeader.vue';
 </script>
-
-<style scoped>
-</style>

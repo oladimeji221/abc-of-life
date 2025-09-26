@@ -1,100 +1,21 @@
 <template>
         <header id="masthead" class="header ttm-header-style-classicinfo">
             <!-- ttm-fbar-main-w -->
-            <div class="ttm-fbar-main-w ttm-fbar-position-right">
-                <div class="ttm-fbar-box-w ttm-textcolor-white ttm-bgcolor-darkgrey ttm-bg ttm-bgimage-yes">
-                    <span class="ttm-fbar-btn">
-                        <a href="javascript:void(0)" class="ttm-fbar-btn-link">
-                            <span class="ttm-fbar-open-icon"><i class="fa fa-bars"></i></span>
-                            <span class="ttm-fbar-close-icon"><i class="fa fa-times"></i></span>
-                        </a>
-                    </span>
-                    <div class="ttm-fbar-bg-layer ttm-bg-layer"></div>
-                    <!-- ttm-fbar-content-wrapper -->
-                    <div class="ttm-fbar-content-wrapper">
-                        <div class="ttm-fbar-box">
-                            <!-- ttm_widget_team_search-2 -->
-                            <aside id="ttm_widget_team_search-2" class="widget-even widget-4 widget ttm_widget_team_search">
-                                <div class="team-search-form-w">
-                                    <form method="get" class="team-search-form " action="#">
-                                        <div class="ttm-team-search-title">
-                                            <h2>Doctors Search:</h2>
-                                        </div>
-                                        <div class="team-search-form-before-text">We provide the most full medical services, so every person could have the opportunity</div>
-                                        <div class="ttm-fbar-input">
-                                            <div class="search_field by_name">
-                                                <i class="fa fa-user-md"></i><input type="text" placeholder="Search By Name" name="s" value="">
-                                            </div>
-                                        </div>
-                                        <div class="ttm-fbar-input">
-                                            <div class="search_field selectbox">
-                                                <i class="fa fa-tags"></i>
-                                                <select name="team_group" tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
-                                                    <option value="" class="select-empty">All Sections</option>
-                                                    <option value="dental">Dental</option>
-                                                    <option value="dermatologist">Dermatologist</option>
-                                                    <option value="health-care">Health Care</option>
-                                                    <option value="ophthalmology">Ophthalmology</option>
-                                                    <option value="psychological">Psychological</option>
-                                                    <option value="surgery">Surgery</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="submit_field"><button type="submit">Search</button></div>
-                                    </form>
-                                </div>
-                            </aside><!-- ttm_widget_team_search-2 end -->
-                            <!-- enhanced-text-widget -->
-                            <aside id="enhancedtextwidget-10" class="widget-odd widget-5 widget widget_text enhanced-text-widget">
-                                <h3 class="widget-title">Opening Hours:</h3>
-                                <div class="textwidget widget-text">These are our normal opening hours. When we are closed can be found here.<br>
-                                    <div class="ttm-pricelistbox-wrapper ">
-                                        <ul class="ttm-pricelist-block">
-                                            <li>Monday - Saturday<span class="service-price">8.30 – 17.00</span></li>
-                                            <li>Sunday<span class="service-price"><strong>Closed</strong></span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </aside><!-- enhanced-text-widget end -->
-                            <!-- enhanced-text-widget -->
-                            <aside id="enhancedtextwidget-11" class="widget-even widget-6 widget widget_text enhanced-text-widget">
-                                <div class="textwidget widget-text">
-                                    <div class="featured-icon-box left-icon icon-align-top">
-                                        <div class="featured-icon">
-                                            <div class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-sm ttm-icon_element-style-square">
-                                                <i class="fa fa-phone"></i>
-                                            </div>
-                                        </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h5>+123 456 78910 / 11</h5>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p>Have a question? call us now</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </aside><!-- enhanced-text-widget end -->
-                        </div>
-                    </div><!-- ttm-fbar-content-wrapper end -->
-                </div>
-            </div><!-- ttm-fbar-main-w end -->
+        
             <!-- ttm-topbar-wrapper -->
             <div class="ttm-topbar-wrapper ttm-bgcolor-darkgrey ttm-textcolor-white clearfix">
                 <div class="container">
                     <div class="ttm-topbar-content">
                         <ul class="top-contact text-start">
-                            <li><i class="themifyicon ti-location-pin"></i>234 Triumph, Los Angeles, California, US</li>
-                            <li><i class="themifyicon ti-timer"></i>Mon - Sat 8.00 - 18.00. Sunday CLOSED</li>
+                            <li><i class="themifyicon ti-location-pin"></i>Bowie, Marylland</li>
+                            <li><i class="themifyicon ti-timer"></i>Mon - Fri 8.00am - 7.00pm</li>
                         </ul>
                         <div class="topbar-right text-end">
                             <div class="ttm-social-links-wrapper list-inline">
                                 <ul class="social-icons">
-                                    <li class="facebook-icon"><a href="https://www.facebook.com/preyantechnosys19" rel="noopener" aria-label="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li class="twitter-icon"><a href="https://twitter.com/PreyanTechnosys" rel="noopener" aria-label="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="pinterest-icon"><a href="https://in.pinterest.com/preyan_technosys/" rel="noopener" aria-label="pinterest" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
-                                    <li class="linkedin-icon"><a href="https://www.linkedin.com/in/preyan-technosys-pvt-ltd/" rel="noopener" aria-label="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="facebook-icon"><a href="#" rel="noopener" aria-label="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="twitter-icon"><a href="#" rel="noopener" aria-label="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="linkedin-icon"><a href="#" rel="noopener" aria-label="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor" href="#">GET A APPOINTMENT!</a>
@@ -112,18 +33,14 @@
                                 <!-- site-branding -->
                                 <div class="site-branding">
                                     <a class="home-link" href="index-2.html" title="Brivona" rel="home">
-                                        <img id="logo-img" class="img-center" src="/assets/images/logo-img.png" alt="logo-img">
+                                        <img id="logo-img" class="img-center" src="/assets/images/logo-img.png" width="120" alt="logo-img">
                                     </a>
                                 </div><!-- site-branding end -->
                                 <!--site-navigation -->
                                 <div id="site-navigation" class="site-navigation">
                                     <!-- header-icons -->
                                     <div class="ttm-header-icons ">
-                                        <span class="ttm-header-icon ttm-header-cart-link">
-                                            <a href="#"><i class="fa fa-shopping-cart"></i>
-                                                <span class="number-cart">0</span>
-                                            </a>
-                                        </span>
+                                       
                                         <div class="ttm-header-icon ttm-header-search-link">
                                             <a href="#"><i class="ti ti-search"></i></a>
                                             <div class="ttm-search-overlay">
@@ -160,16 +77,17 @@
                                             <li><a href="/about">About Us</a></li>
                                             <li><a href="/services">Services</a>
                                                 <ul>
-                                                    <li><a href="#">Neurology Services</a></li>
-                                                    <li><a href="#">Cardiology Services</a></li>
-                                                    <li><a href="#">X-Ray & RMI Services</a></li>
-                                                    <li><a href="#">Eye Care Services</a></li>
-                                                    <li><a href="#">Dental Services</a></li>
-                                                    <li><a href="#">Orthopaedics Services</a></li>
+                                                    <li><a href="/personal-care">Personal Care</a></li>
+                                                    <li><a href="/skilled-nursing-care">Skilled Nursing Care</a></li>
+                                                    <li><a href="/pediatric-home-care">Pediatric Home Care</a></li>
+                                                    <li><a href="/hospice-support">Hospice Support</a></li>
+                                                    <li><a href="/physical-occupational-therapy">Physical & Occupational Therapy</a></li>
+                                                    <li><a href="/geriatric-care">Geriatric Care</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="/contact-us">Contact Us</a></li>
                                             <li><a href="/help-and-faqs">FAQs</a></li>
+                                             <li><a href="/jobs">Jobs</a></li>
+                                            <li><a href="/contact-us">Contact Us</a></li>
                                         </ul>
                                     </nav>
                                 </div><!-- site-navigation end-->
@@ -198,8 +116,8 @@
                                         <i class="fa fa-user-md"></i>
                                     </div>
                                     <div class="header-content">
-                                        <h3>Personal Cabinet</h3>
-                                        <p>Qualified Staff</p>
+                                        <h3>Qualified Staff</h3>
+                                        <p>Personal Cabinet</p>
                                     </div>
                                 </div>
                                 <div class="header-widget">
@@ -214,7 +132,7 @@
                             </div>
                             <!-- ttm-info-widget end -->
                             <div class="ttm-contact">
-                                <span class="icon"><i class="fa fa-phone"></i></span>Toll Free : 1 123 456 78910
+                                <span class="icon"><i class="fa fa-phone"></i></span>Toll Free : +1-301-575-4714
                             </div>
                         </div>
                     </div>
