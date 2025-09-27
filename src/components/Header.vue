@@ -33,7 +33,7 @@
                                 <!-- site-branding -->
                                 <div class="site-branding">
                                     <a class="home-link" href="index-2.html" title="Brivona" rel="home">
-                                        <img id="logo-img" class="img-center" src="/assets/images/logo-img.png" width="120" alt="logo-img">
+                                        <img id="logo-img" class="img-center" src="/assets/images/logo-img.png" alt="logo-img">
                                     </a>
                                 </div><!-- site-branding end -->
                                 <!--site-navigation -->
@@ -140,3 +140,52 @@
             </div>
         </header><!--header end-->
 </template>
+
+<script setup>
+import { onMounted } from 'vue';
+
+onMounted(() => {
+    const $ = window.jQuery;
+
+    if ($) {
+        // Mobile Menu Toggle Logic
+        $('ul li:has(ul)').addClass('has-submenu');
+        $('ul li ul').addClass('sub-menu');
+
+        $("ul.dropdown li").on({
+            mouseover: function(){
+               $(this).addClass("hover");
+            },  
+            mouseout: function(){
+               $(this).removeClass("hover");
+            }, 
+        });
+        
+        var $menu = $('#menu'), $menulink = $('#menu-toggle-form'), $menuTrigger = $('.has-submenu > a');
+        
+        $menulink.off('click').on('click', function () {
+            $menulink.toggleClass('active');
+            $menu.toggleClass('active');
+        });
+
+        $menuTrigger.off('click').on('click', function (e) {
+            e.preventDefault();
+            var t = $(this);
+            t.toggleClass('active').next('ul').toggleClass('active');
+        });
+    }
+});
+</script>
+
+<style scoped>
+#logo-img {
+  width: 120px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 991px) { /* Using 991px as a common breakpoint for tablets and mobile */
+  #logo-img {
+    width: 80px;
+  }
+}
+</style>
