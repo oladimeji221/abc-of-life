@@ -96,10 +96,10 @@
                                 <li><a href="/skilled-nursing-care">Skilled Nursing Care</a></li>
                                 <li><a href="/hospice-support">Hospice Support</a></li>
                                 <li><a href="/pediatric-home-care">Pediatric Home Care</a></li>
-                                <li><a href="/physical-therapy">Physical Therapy</a></li>
-                                <li><a href="/speech-therapy">Speech Therapy</a></li>
-                                <li><a href="/occupational-therapy">Occupational Therapy</a></li>
-                                <li><a href="/respiratory-therapy">Respiratory Therapy</a></li>
+                                <li><a href="/physical-therapy">Physical & Occupational Therapy</a></li>
+                                <li><a href="/geriatric-care">Geriatric Care</a></li>
+                                <!-- <li><a href="/occupational-therapy">Occupational Therapy</a></li> -->
+                                <!-- <li><a href="/respiratory-therapy">Respiratory Therapy</a></li> -->
                             </ul>
                         </div>
                     </div>
